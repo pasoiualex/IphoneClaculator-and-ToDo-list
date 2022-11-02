@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Inter:wght@400;500;700&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Alkalami", sans-serif;
+}
+
+.top-container {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  letter-spacing: 2px;
+}
+
+.second-top-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.inputTop {
+  width: 40%;
+  height: 2rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  background-color: #5c7cfa;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.btnSend:hover {
+  background-color: #748ffc;
+}
+
+.bottom-container {
+  width: 100%;
+  height: 75%;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}
+
+.principal-container {
+  width: 65%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-radius: 1rem;
+  border-bottom: 0.5rem solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btnClear {
+  background-color: #c92a2a;
+  margin-top: 2rem;
+  width: 50%;
+  cursor: pointer;
+}
+
+.btnClear:hover {
+  background-color: #e03131;
+}
+
+.undorderLi {
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+.lines {
+  text-decoration: line-through;
+}
